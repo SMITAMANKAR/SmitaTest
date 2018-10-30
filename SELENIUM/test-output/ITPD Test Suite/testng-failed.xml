@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ITPD Test Suite]">
+  <test name="Sample Test(failed)">
+    <classes>
+      <class name="antpkg.TestB">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- antpkg.TestB -->
+      <class name="antpkg.TestA">
+        <methods>
+          <include name="afterClass"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- antpkg.TestA -->
+      <class name="TestNG.TestNGMultiPackage">
+        <methods>
+          <include name="InitiateDriver"/>
+          <include name="ReadDataFromXLS"/>
+          <include name="CloseBrowser"/>
+        </methods>
+      </class> <!-- TestNG.TestNGMultiPackage -->
+    </classes>
+  </test> <!-- Sample Test(failed) -->
+</suite> <!-- Failed suite [ITPD Test Suite] -->
